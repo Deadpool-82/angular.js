@@ -94,6 +94,12 @@ function createFolder(folder) {
   });
 }
 
+function dummy (dummyitem)
+{
+  var dummyitemcopy = dummyitem;
+  console.log(dummyitem);
+}
+
 createFolder(NG_LOCALE_DIR)
   .then(readSymbols)
   .then(extractPlurals)
