@@ -37,5 +37,6 @@ function publish() {
   # push the tag to github
   git push origin $TAG_NAME
 }
+echo "Coming into the file"
 
 source $(dirname $0)/../utils.inc
